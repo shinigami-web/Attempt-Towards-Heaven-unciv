@@ -2,7 +2,7 @@
   {
     "name": "Mortal",
     "unitType": "Sword",
-    "uniqueTo": "Attempt Towards Heaven",
+    "uniqueTo": "Void Land",
     "replaces": "Warrior",
     "movement": 2,
     "strength": 8,
@@ -13,7 +13,7 @@
   {
     "name": "Qi Condensation Disciple",
     "unitType": "Sword",
-    "uniqueTo": "Attempt Towards Heaven",
+    "uniqueTo": "Void Land",
     "replaces": "Spearman",
     "movement": 2,
     "strength": 14,
@@ -25,7 +25,7 @@
   {
     "name": "Foundation Establishment Cultivator",
     "unitType": "Sword",
-    "uniqueTo": "Attempt Towards Heaven",
+    "uniqueTo": "Void Land",
     "replaces": "Swordsman",
     "movement": 2,
     "strength": 22,
@@ -38,7 +38,7 @@
   {
     "name": "Golden Core Elder",
     "unitType": "Sword",
-    "uniqueTo": "Attempt Towards Heaven",
+    "uniqueTo": "Void Land",
     "replaces": "Longswordsman",
     "movement": 2,
     "strength": 32,
@@ -51,7 +51,7 @@
   {
     "name": "Nascent Soul Ancestor",
     "unitType": "Sword",
-    "uniqueTo": "Attempt Towards Heaven",
+    "uniqueTo": "Void Land",
     "replaces": "Musketman",
     "movement": 2,
     "strength": 45,
