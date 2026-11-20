@@ -1,17 +1,72 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+  {
+    "name": "Mortal",
+    "unitType": "Sword",
+    "uniqueTo": "Attempt Towards Heaven",
+    "replaces": "Warrior",
+    "movement": 2,
+    "strength": 8,
+    "cost": 40,
+    "upgradesTo": "Qi Condensation Disciple",
+    "obsoleteTech": "Metal Casting",
+    "uniques": ["Will not be displayed in Civilopedia"],
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Qi Condensation Disciple",
+    "unitType": "Sword",
+    "uniqueTo": "Attempt Towards Heaven",
+    "replaces": "Spearman",
+    "movement": 2,
+    "strength": 14,
+    "cost": 60,
+    "requiredTech": "Bronze Working",
+    "upgradesTo": "Foundation Establishment Cultivator",
+    "uniques": ["[+15]% Strength <when fighting in [Friendly Land]>"],
+    "promotions": ["Shock I"],
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Foundation Establishment Cultivator",
+    "unitType": "Sword",
+    "uniqueTo": "Attempt Towards Heaven",
+    "replaces": "Swordsman",
+    "movement": 2,
+    "strength": 22,
+    "cost": 85,
+    "requiredTech": "Iron Working",
+    "requiredResource": "Iron",
+    "upgradesTo": "Golden Core Elder",
+    "uniques": ["[+25]% Strength <vs [Wounded] units>", "Heals [10] damage if it ends turn in a [Holy Site] tile"],
+    "promotions": ["Shock I", "Shock II"],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Golden Core Elder",
+    "unitType": "Sword",
+    "uniqueTo": "Attempt Towards Heaven",
+    "replaces": "Longswordsman",
+    "movement": 2,
+    "strength": 32,
+    "cost": 130,
+    "requiredTech": "Steel",
+    "requiredResource": "Iron",
+    "upgradesTo": "Nascent Soul Ancestor",
+    "uniques": ["[+1] Movement <when starting in [Friendly Land]>", "Can move after attacking", "[+20]% Strength <vs [Military] units>"],
+    "promotions": ["Shock II", "Drill I"],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Nascent Soul Ancestor",
+    "unitType": "Sword",
+    "uniqueTo": "Attempt Towards Heaven",
+    "replaces": "Musketman",
+    "movement": 3,
+    "strength": 45,
+    "cost": 200,
+    "requiredTech": "Gunpowder",
+    "uniques": ["[+50]% Strength <when fighting in [Enemy Land]>", "Heals [15] damage if it ends turn in friendly territory", "Can see over obstacles", "Destroys tile improvements when attacking"],
+    "promotions": ["Shock III", "Drill II", "Blitz"],
+    "attackSound": "phaser"
+  }
 ]
